@@ -1,0 +1,148 @@
+/* login page */
+@media (max-width: 479px) {
+  body {
+    height: auto;
+    padding: 20px 0;
+  }
+  .LogInPage {
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+  }
+  .login-container {
+    border: none;
+    padding: 24px 0;
+  }
+  .login-form {
+    width: 100%;
+  }
+  .logo-container {
+    padding: 90px 0;
+  }
+  .lines {
+    width: 100%;
+  }
+  .login-with-google {
+    width: 100%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  body {
+    height: auto;
+    padding: 20px 0;
+  }
+  .LogInPage {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+  .login-container {
+    border: none;
+    padding: 24px 0;
+  }
+  .login-form {
+    width: 100%;
+  }
+  .logo-container {
+    padding: 90px 0;
+  }
+  .lines {
+    width: 100%;
+  }
+  .login-with-google {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  body {
+    height: auto;
+    padding: 20px 0;
+  }
+  .LogInPage {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+  .login-container {
+    border: none;
+    padding: 24px 0;
+  }
+  .login-form {
+    width: 100%;
+  }
+  .logo-container {
+    padding: 90px 0;
+  }
+  .lines {
+    width: 100%;
+  }
+  .login-with-google {
+    width: 100%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1240px) {
+  .LogInPage {
+    width: 95%;
+  }
+}
+
+/* sign up page */
+@media (max-width: 479px) {
+  .SignUpPage {
+    width: 100%;
+    height: auto;
+    border: none;
+  }
+  .signup-form {
+    width: 95%;
+  }
+  .fullname-form {
+    flex-direction: column;
+  }
+  .lines2 {
+    width: 95%;
+  }
+  .login-with-google2 {
+    width: 95%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .SignUpPage {
+    width: 100%;
+    height: auto;
+    border: none;
+  }
+  .signup-form {
+    width: 95%;
+  }
+  .fullname-form {
+    flex-direction: column;
+  }
+  .lines2 {
+    width: 95%;
+  }
+  .login-with-google2 {
+    width: 95%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .SignUpPage {
+    width: 80%;
+    height: auto;
+  }
+  .signup-form {
+    width: 80%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1240px) {
+  body {
+    padding: 10px 0;
+  }
+  .SignUpPage {
+    width: 80%;
+    height: auto;
+  }
+  .signup-form {
+    width: 80%;
+  }
+}

@@ -1,0 +1,210 @@
+.LogInPage {
+  display: flex;
+  width: 80%;
+  height: 90vh;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(40deg, #0396ff 5%, #abdcff);
+  flex-grow: 1;
+  box-sizing: border-box;
+  border-radius: 10px;
+  gap: 24px;
+}
+.logo-container img {
+  /* margin-top: 80px;
+  margin-bottom: 50px; */
+  width: 50%;
+  height: 35%;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid var(--input-border-color);
+  border-radius: 10px;
+  flex-grow: 2;
+  box-sizing: border-box;
+  gap: 24px;
+}
+.login-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  gap: 10px;
+}
+.login-form label {
+  width: 100%;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid var(--input-border-color);
+}
+.login-btn {
+  width: 100%;
+}
+.login-btn input {
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 1px solid var(--secondary-color);
+  cursor: pointer;
+}
+.forgot-pass {
+  text-align: end;
+  width: 100%;
+}
+.lines {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+  color: black;
+}
+.lines p {
+  opacity: 0.8;
+}
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: var(--input-border-color);
+}
+.login-with-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--input-border-color);
+  border-radius: 10px;
+  padding: 15px;
+  width: 80%;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+  /* margin-bottom: 60px; */
+  box-sizing: border-box;
+}
+.google-logo {
+  width: 30px;
+  height: 30px;
+}
+.signup-btn {
+  display: flex;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.signup-btn Link {
+  text-decoration: none;
+}
+
+/* sign up page */
+.SignUpPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 12px;
+  width: 60%;
+  /* min-width: 450px; until 480px of the devices */
+  height: 98vh;
+  border: 2px solid var(--input-border-color);
+  border-radius: 10px;
+  padding: 20px 0;
+}
+.SignUpPage header {
+  text-align: center;
+}
+.SignUpPage header h1 {
+  font-size: 2rem;
+}
+.SignUpPage p {
+  font-size: 1rem;
+  opacity: 0.7;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 80%;
+  gap: 20px;
+}
+.user-pass-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.user-pass-form input {
+  padding: 20px 10px;
+  border-radius: 10px;
+  border: 2px solid var(--input-border-color);
+}
+.fullname-form {
+  display: flex;
+  gap: 10px;
+}
+.group-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.group-form input {
+  padding: 20px 10px;
+  border-radius: 10px;
+  border: 2px solid var(--input-border-color);
+}
+.terms-conditions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.terms-conditions label a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.terms-conditions input {
+  width: 15px;
+  height: 15px;
+}
+.create-acc-btn {
+  padding: 15px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.lines2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 70%;
+  color: black;
+}
+.lines2 p {
+  opacity: 0.8;
+}
+.login-with-google2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--input-border-color);
+  border-radius: 10px;
+  padding: 10px 0;
+  width: 70%;
+  text-decoration: none;
+  color: black;
+}
